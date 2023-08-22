@@ -1,0 +1,11 @@
+.panel__right-button {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  right: -60px;
+  cursor: pointer;
+  margin-left: 3%;
+  padding: 0;
+  border: none;
+  background-color: var(--bg-ligth);
+}

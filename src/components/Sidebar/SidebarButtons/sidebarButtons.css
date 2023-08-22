@@ -1,0 +1,7 @@
+.sidebar__btns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 42px;
+}

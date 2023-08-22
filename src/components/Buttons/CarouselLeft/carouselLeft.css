@@ -1,0 +1,12 @@
+.panel__left-button {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 45%;
+  left: -60px;
+  cursor: pointer;
+  margin-right: 3%;
+  padding: 0;
+  border: none;
+  background-color: var(--bg-ligth);
+}

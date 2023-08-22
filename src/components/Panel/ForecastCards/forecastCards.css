@@ -1,0 +1,56 @@
+.panel__cards {
+  display: flex;
+  gap: 24px;
+}
+
+.panel__card {
+  width: 100px;
+  height: 143px;
+  border-radius: 8.362px;
+  background-color: var(--panel);
+  box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bg-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.panel__temperature {
+  display: flex;
+  justify-content: space-around;
+}
+
+.panel__text-temperature {
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.panel__text-temperature-mute {
+  color: var(--font-mute);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.panel__text-date {
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin: 16.72px 0 77.28px 0;
+}
+
+.panel__card-preloaded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 143px;
+  border-radius: 8.362px;
+  background-color: var(--panel);
+  box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.05);
+}

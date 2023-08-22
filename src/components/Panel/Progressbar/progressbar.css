@@ -1,0 +1,44 @@
+.panel__progressbar-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel__progressbar-percent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.panel__progressbar-percent > p {
+  color: var(--gray);
+  font-size: 12px;
+  margin: 0;
+  font-weight: var(--font-w-light);
+}
+
+.panel__progressbar-scale {
+  display: flex;
+  height: 11px;
+  width: 100%;
+  background-color: var(--progressbar-gray);
+  border-radius: 10px;
+}
+
+.panel__progressbar-symbol {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.panel__progressbar-symbol > p {
+  color: var(--gray);
+  font-size: 12px;
+  margin: 0;
+  font-weight: var(--font-w-light);
+}
+
+.panel__progressbar-completed {
+  display: flex;
+  height: 11px;
+  border-radius: 10px;
+  background-color: var(--accent);
+}

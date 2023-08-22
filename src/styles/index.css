@@ -1,0 +1,57 @@
+@import url('./normalize.css');
+@import url('./media.css');
+
+:root {
+  --action: #E6E6E6;
+  --progressbar-gray: #D3D3D3;
+  --accent: #EC6E4D;
+  --bg: #F1F1F1;
+  --gray: #48484A;
+  --hint: #ACACAC;
+  --action-history-bg: #E6E6E6;
+  --gray-light: #E6E6E6;
+  --panel: #FFFFFF;
+  --font-mute: #D3D3D3;
+  --font-w-light: 300;
+  --font-w-regular: 400;
+  --font-w-medium: 500;
+  --font-w-bold: 700;
+  --font-w-black: 900;
+  --active-btn: #212331;
+}
+
+:root[data-theme="dark"] {
+  --panel: #212331;
+  --gray: #E6E6E6;
+  --bg: #100E1C;
+  --action: #EC6E4D;
+  --action-history-bg: #100E1C;
+  --progressbar-gray: #E6E6E6;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+}
+
+.btn {
+  font-family: 'Rubik', sans-serif;
+  color: var(--gray);
+  font-size: 18px;
+  font-weight: var(--font-w-bold);
+  background-color: var(--panel);
+  border: 2px solid var(--hint);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--bg);
+  border: 2px solid var(--bg);
+  outline: 2px solid var(--bg); 
+}

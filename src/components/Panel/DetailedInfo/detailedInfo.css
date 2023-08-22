@@ -1,0 +1,85 @@
+.panel__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 60px;
+  max-width: 720px;
+  gap: 17px 80px;
+  margin-top: 19px;
+}
+
+.panel__info-card {
+  text-align: center;
+  padding: 25px 25px 0 25px;
+  border-radius: 10px;
+  background-color: var(--panel);
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.panel__info-card_normal {
+  width: 320px;
+  height: 181px;
+}
+
+.panel__info-card_small {
+  width: 320px;
+  height: 162px;
+}
+
+.panel__wind-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+}
+
+.panel__header-text {
+  color: var(--gray);
+  margin: 0 0 11px 0;
+  font-size: 18px;
+  font-weight: var(--font-w-regular);
+}
+
+.panel__body-text {
+  color: var(--gray);
+  margin: 0;
+  font-size: 64px;
+  font-weight: var(--font-w-black);
+}
+
+.panel__body-text-details {
+  color: var(--gray);
+  margin: 0;
+  font-size: 36px;
+  font-weight: var(--font-w-medium);
+}
+
+.panel__wind-direction {
+  color: var(--gray);
+  margin: 0;
+  font-size: 18px;
+  font-weight: var(--font-w-light);
+}
+
+.panel__info-card-small__header {
+  color: var(--gray);
+  margin: 0 0 21px 0;
+  font-size: 18px;
+  font-weight: var(--font-w-regular);
+}
+
+.panel__body-text-pressure {
+  color: var(--gray);
+  margin: 0;
+  font-size: 18px;
+  font-weight: var(--font-w-medium);
+}
+
+article.panel__info-card-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

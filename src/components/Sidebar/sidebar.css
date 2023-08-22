@@ -1,0 +1,17 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50.8%;
+  max-width: 460px;
+  min-width: 320px;
+  position: relative;
+  min-height: 100vh;
+  flex-grow: 1; 
+  background-color: var(--panel);
+  background-image: url('../../assets/bg-cloud.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 30%;
+  background-blend-mode: difference;
+}

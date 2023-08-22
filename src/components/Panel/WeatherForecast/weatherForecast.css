@@ -1,0 +1,6 @@
+.panel__weather-forecast {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 720px;
+}

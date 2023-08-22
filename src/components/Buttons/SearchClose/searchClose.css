@@ -1,0 +1,18 @@
+.sidebar__btn-close {
+  position: relative;
+  justify-content: end;
+  width: 26px;
+  height: 26px;
+  margin-bottom: 46px;
+  border: none;
+  outline: none;
+  background-color: var(--panel);
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.sidebar__btn-close svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

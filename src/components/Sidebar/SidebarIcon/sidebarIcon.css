@@ -1,0 +1,13 @@
+.sidebar__icon {
+  display: flex;
+  margin: 0;
+  flex: 2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar__icon img {
+  width: 200px;
+  height: 200px;
+}

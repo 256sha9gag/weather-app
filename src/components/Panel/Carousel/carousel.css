@@ -1,0 +1,5 @@
+.panel__forecast {
+  display: flex;
+  margin: 25px 0;
+  align-items: center;
+}

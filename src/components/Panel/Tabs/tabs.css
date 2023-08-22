@@ -1,0 +1,39 @@
+.panel__nav {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.panel__text-h3 {
+  margin: 0;
+  color: var(--gray);
+  font-size: 24px;
+  font-weight: var(--font-w-bold);
+}
+
+.panel__tabs {
+  display: flex;
+  gap: 16px;
+  padding-left: 24px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.panel__tab {
+  display: inline;
+  color: var(--hint);
+  font-size: 20px;
+  font-weight: var(--font-w-bold);
+  cursor: pointer;
+}
+
+.panel__tab-active {
+  display: inline;
+  font-size: 20px;
+  font-weight: var(--font-w-bold);
+  color: var(--gray);
+  text-underline-offset: 9px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+}

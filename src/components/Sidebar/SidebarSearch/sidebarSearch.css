@@ -1,0 +1,27 @@
+.sidebar__search {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: flex;
+  flex-direction: column;
+  padding: 46px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--panel);
+  transition: .5s;
+  box-sizing: border-box;
+}
+
+.sidebar__search-open {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 46px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--panel);
+  transition: .5s;
+  box-sizing: border-box;
+}

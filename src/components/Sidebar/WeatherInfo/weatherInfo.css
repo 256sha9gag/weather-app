@@ -1,0 +1,66 @@
+.sidebar__weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar__temp {
+  color: var(--gray);
+  margin: 0;
+  font-size: 96px;
+  font-weight: var(--font-w-black);
+}
+
+.sidebar__degree {
+  color: var(--gray);
+  font-size: 50px;
+  font-weight: var(--font-w-medium);
+}
+
+.sidebar__weather-type {
+  text-align: center;
+  color: var(--gray);
+  margin: 0 0 17px 0;
+  font-size: 36px;
+  font-weight: var(--font-w-bold);
+}
+
+.sidebar__weather-description {
+  margin: 0 0 78px 0;
+  color: var(--hint);
+  font-size: 18px;
+  font-weight: var(--font-w-regular);
+}
+
+.sidebar__date {
+  display: flex;
+  margin-bottom: 25px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.sidebar__date h5 {
+  margin: 0;
+  padding: 10px;
+  color: var(--hint);
+  font-size: 18px;
+  font-weight: var(--font-w-regular);
+}
+
+.sidebar__location {
+  display: flex;
+  align-items: center;
+  color: var(--hint);
+  font-size: 18px;
+  font-weight: var(--font-w-regular);
+  margin-bottom: 35px;
+}
+
+.sidebar__location h5 {
+  margin: 0;
+  color: var(--hint);
+  font-size: 18px;
+  font-weight: var(--font-w-regular);
+  text-align: center;
+  width: 88px;
+}

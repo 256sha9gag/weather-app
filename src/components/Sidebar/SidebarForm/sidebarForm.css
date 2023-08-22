@@ -1,0 +1,27 @@
+.sidebar__search-form {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.sidebar__input {
+  width: 250px;
+  height: 50px;
+  padding: 14px 44px;
+  background: url('../../../assets/search-icon.svg') no-repeat;
+  background-position: left 17px center;
+  box-sizing: border-box;
+}
+
+.sidebar__input::placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: var(--font-w-medium);
+  color: var(--gray);
+}
+
+.sidebar__label {
+  display: none;
+}
