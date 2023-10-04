@@ -27,4 +27,5 @@ const getWeatherInCity = async (query) => {
   }
 };
 
+
 export default getWeatherInCity;

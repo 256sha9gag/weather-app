@@ -3,7 +3,7 @@ const baseURL = {
   forecast: 'https://api.openweathermap.org/data/2.5/forecast',
 }
 
-const apiKey = '97c2cbc1b3724223fb01cfc500411909';
+const apiKey = process.env.REACT_APP_APIKey;
 
 
 const createUrl = (lat, lon, type) => {
